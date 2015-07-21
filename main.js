@@ -46,10 +46,10 @@ for (var i = studentGrades.length - 1; i >= 0; i--) {
 }
 
 
-console.log("There are " + f_grades.length + " F Grades: " + f_grades.join(", "));
-console.log("There are " + d_grades.length + " D Grades: " + d_grades.join(", "));
-console.log("There are " + c_grades.length + " C Grades: " + c_grades.join(", "));
-console.log("There are " + b_grades.length + " B Grades: " + b_grades.join(", "));
-console.log("There are " + a_grades.length + " A Grades: " + a_grades.join(", "));
+console.log("There are " + f_grades.length + " F Grades: " + f_grades.sort().join(", "));
+console.log("There are " + d_grades.length + " D Grades: " + d_grades.sort().join(", "));
+console.log("There are " + c_grades.length + " C Grades: " + c_grades.sort().join(", "));
+console.log("There are " + b_grades.length + " B Grades: " + b_grades.sort().join(", "));
+console.log("There are " + a_grades.length + " A Grades: " + a_grades.sort().join(", "));
 console.log("The highest grade is " + highGrade + "!");
 console.log("The lowest grade is " + lowGrade + " =(");
